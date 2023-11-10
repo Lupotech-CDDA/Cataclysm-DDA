@@ -1,4 +1,10 @@
 abcdefghijklmnopqrstuvwxyz
+moulinet
+backswings
+backswing
+buttstroke
+spraining
+parrying
 aberrance
 aboveground
 abso
@@ -33,7 +39,7 @@ affordability
 affordably
 afterbirth
 aftereffect
-aftereffects 
+aftereffects
 afterglow
 afterimage
 afterlife
@@ -637,6 +643,7 @@ coverplate
 crablike
 cracklins
 craftable
+crafter
 craftsfolk
 craftswoman
 craftwork
@@ -3000,7 +3007,7 @@ teshuvah
 testbed
 tetradrachm
 tetrahedron
-thaumaturge 
+thaumaturge
 thaumaturgical
 thawb
 themm
@@ -3459,6 +3466,7 @@ zuniceratops
 zuul
 zweitimber
 zygomaticus
+shivs
 zzz
 zzzzchzzzzchurzzz
 zzzzchzzzzchurzzzpileus
