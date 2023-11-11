@@ -766,6 +766,18 @@
   },
   {
     "type": "scenario",
+    "id": "prepper_mechanic",
+    "name": "Prepper Mechanic",
+    "points": 4,
+    "description": "You are a mechanic and have a vehicle",
+    "start_name": "Home",
+    "allowed_locs": [ "sloc_prepper_mechanic_home" ],
+    "professions": [ "mechanic" ],
+    "flags": [ "LONE_START" ],
+    "reveal_locale": false
+  },
+  {
+    "type": "scenario",
     "id": "foodplace",
     "name": "The Mascot Rises",
     "points": 0,

@@ -1,0 +1,137 @@
+[
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": [ "house_prepper_rv" ],
+    "weight": 10,
+    "object": {
+      "fill_ter": "t_floor",
+      "rows": [
+        ".%~~~~~~~~p.%%%..---....",
+        ".%~~~~~~~~.####oo#*####.",
+        ".%~~~~~~~~.#RRR  L   E#.",
+        ".%~~~~~~~~.#         s#.",
+        ".%~~~~~~~~.# ll      E#.",
+        ".%~~~~~~~~.#HHHH     T#.",
+        ".%~~~~~~~~.#          #.",
+        ".%~~~~~~~~.#L    hhh  o.",
+        "..~~~~~~~~~*     fff  o.",
+        "..~~~~~~~~.#     hhh  o.",
+        "..~~~~~~~~.#          o.",
+        "..~~~~~~~~^#     AAA y#.",
+        ".########### ||| JJJ||#.",
+        ".#BBy      + |66    7Fo.",
+        ".o     || || |Y      5o.",
+        ".#S88Yt|Q U|     43O21o.",
+        ".#|||||||||| ||+||||||#.",
+        ".#d   b  +D| |zz666666#.",
+        ".#@@    y||| |z      z#.",
+        ".#@@       + +  UUUUUU#.",
+        ".#s       h|+|      A #.",
+        ".#  TEy  II|>|gzqqqNNN#.",
+        ".####oo#####o##########.",
+        ".....................^.."
+      ],
+      "palettes": [
+        "standard_domestic_palette",
+        "standard_domestic_lino_bathroom",
+        "standard_domestic_landscaping_palette",
+        "standard_domestic_untidy_palette"
+      ],
+      "terrain": {
+        "%": [ "t_region_shrub", "t_region_shrub_fruit", "t_region_shrub_decorative" ],
+        "G": "t_concrete",
+        "K": "t_concrete",
+        "~": "t_concrete",
+        "j": "t_concrete"
+      },
+      "place_loot": [
+        { "group": "guns_pistol_common", "x": 2, "y": 17, "chance": 100, "ammo": 90, "magazine": 100 },
+        { "group": "camping", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] }
+      ],
+      "place_vehicles": [ { "vehicle": "surv_rv", "x": 5, "y": 1, "chance": 100, "rotation": 270, "fuel": 100, "status": 0 } ]
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "house_prepper_rv_roof",
+    "object": {
+      "fill_ter": "t_shingle_flat_roof",
+      "rows": [
+        "                        ",
+        "           ------------ ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -....&.....- ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -..........- ",
+        "           -..........- ",
+        " ----------5..........- ",
+        " -....................- ",
+        " -....................- ",
+        " -...:................- ",
+        " -....................- ",
+        " -....................- ",
+        " -....................- ",
+        " -..............=.....- ",
+        " -....................- ",
+        " -....................- ",
+        " -------------------5-- ",
+        "                        "
+      ],
+      "palettes": [ "roof_palette" ],
+      "terrain": { ".": "t_shingle_flat_roof" }
+    }
+  },
+  {
+    "type": "mapgen",
+    "method": "json",
+    "om_terrain": "house_prepper_rv_basement",
+    "object": {
+      "fill_ter": "t_thconc_floor",
+      "rows": [
+        "                        ",
+        "           |||||||||||| ",
+        "           |1.........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        "           |..........| ",
+        " |||||||||||..........| ",
+        " |2...................| ",
+        " |....................| ",
+        " |...................F| ",
+        " |....................| ",
+        " |...................g| ",
+        " |....................| ",
+        " |................A...| ",
+        " |...................U| ",
+        " |..........<...WJJZ.U| ",
+        " |||||||||||||||||||||| ",
+        "                        "
+      ],
+      "palettes": [ "basement_empty" ],
+      "nested": {
+        "1": {
+          "chunks": [
+            [ "null", 70 ],
+            [ "room_10x10_pool_S", 10 ],
+            [ "room_10x10_recording_studio_S", 30 ],
+            [ "room_10x10_woodworker_S", 30 ]
+          ]
+        },
+        "2": { "chunks": [ [ "null", 75 ], [ "room_9x9_cellar_E", 20 ], [ "room_9x9_weed_E", 5 ], [ "room_9x9_recroom_E", 30 ] ] }
+      }
+    }
+  }
+]
