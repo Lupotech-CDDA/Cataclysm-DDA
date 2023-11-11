@@ -97,6 +97,12 @@
   },
   {
     "type": "start_location",
+    "id": "sloc_prepper_mechanic_home",
+    "name": "Prepper Mechanic's Home",
+    "terrain": [ "house_prepper_garage" ]
+  },
+  {
+    "type": "start_location",
     "id": "sloc_house",
     "name": "House",
     "terrain": [
