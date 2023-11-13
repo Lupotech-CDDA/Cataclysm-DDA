@@ -4349,15 +4349,6 @@
   },
   {
     "type": "overmap_terrain",
-    "abstract": "house_prepper_rv",
-    "copy-from": "house_prepper_rv",
-    "name": "RV prepper house",
-    "mon_density": 0,
-    "sym": "R",
-    "color": "i_light_green"
-  },
-  {
-    "type": "overmap_terrain",
     "abstract": "generic_mansion_entrance",
     "copy-from": "generic_mansion"
   },

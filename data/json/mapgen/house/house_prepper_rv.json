@@ -47,9 +47,21 @@
       },
       "place_loot": [
         { "group": "guns_pistol_common", "x": 2, "y": 17, "chance": 100, "ammo": 90, "magazine": 100 },
-        { "group": "camping", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] }
+        { "group": "camping", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_construction", "x": 1, "y": 1, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_common", "x": 1, "y": 2, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_common_small", "x": 1, "y": 3, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_general", "x": 1, "y": 4, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_electronics", "x": 1, "y": 5, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_mechanic", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "tools_electronics", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "supplies_hardware", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "supplies_fuel", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "supplies_metal", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "supplies_mechanics", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] },
+        { "group": "supplies_spares_vehicle", "x": [ 16, 19 ], "y": 19, "chance": 100, "repeat": [ 1, 4 ] }
       ],
-      "place_vehicles": [ { "vehicle": "surv_rv", "x": 5, "y": 1, "chance": 100, "rotation": 270, "fuel": 100, "status": 0 } ]
+      "place_vehicles": [ { "vehicle": "surv_rv", "x": 5, "y": 1, "chance": 100, "rotation": 270, "fuel": 50, "status": 0 } ]
     }
   },
   {
