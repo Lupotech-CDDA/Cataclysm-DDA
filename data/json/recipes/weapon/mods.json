@@ -1324,7 +1324,8 @@
     "time": "1 h",
     "book_learn": [ [ "mag_guns", 5 ], [ "mag_pistol", 5 ], [ "manual_gun", 5 ], [ "manual_pistol", 5 ] ],
     "proficiencies": [ { "proficiency": "prof_machining_basic" } ],
-    "qualities": [ { "id": "THREAD_TAP", "level": 2 }, { "id": "FILE", "level": 2 } ],
+    "qualities": [ { "id": "FILE", "level": 2 } ],
+    "tools": [ [ [ "fake_lathe", 40 ] ] ],
     "//": "Scrap is used for a thread protector cap to shield the newly-cut threads when no muzzle device is attached.",
     "components": [ [ [ "scrap", 1 ] ] ]
   }
