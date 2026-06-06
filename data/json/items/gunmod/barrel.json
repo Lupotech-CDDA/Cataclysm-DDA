@@ -33,6 +33,28 @@
     "flags": [ "IRREMOVABLE" ]
   },
   {
+    "id": "barrel_threaded",
+    "type": "ITEM",
+    "subtypes": [ "GUNMOD" ],
+    "name": { "str": "threaded barrel" },
+    "description": "A replacement barrel with external threading at the muzzle end, allowing the attachment of suppressors and other muzzle devices.  Common aftermarket upgrade for pistols and submachine guns that lack factory muzzle threading.",
+    "weight": "225 g",
+    "integral_weight": "0 g",
+    "volume": "200 ml",
+    "integral_volume": "0 ml",
+    "price": "150 USD",
+    "price_postapoc": "4 USD",
+    "install_time": "5 m",
+    "material": [ "steel" ],
+    "symbol": ":",
+    "color": "light_gray",
+    "location": "barrel",
+    "mod_targets": [ "pistol", "smg" ],
+    "add_mod": [ [ "muzzle", 1 ] ],
+    "min_skills": [ [ "weapon", 2 ] ],
+    "flags": [ "IRREMOVABLE" ]
+  },
+  {
     "id": "barrel_small",
     "type": "ITEM",
     "subtypes": [ "GUNMOD" ],
